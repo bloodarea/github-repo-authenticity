@@ -1,0 +1,18 @@
+# 仓库根 .gitignore（RAAB 专属规则另见 RAAB-v1.0-adversarial-test-plan/.gitignore）
+#
+# 注意：RAAB 测试跑过 Python 后会在 scripts/ 下生成字节码缓存，不要提交。
+
+__pycache__/
+*.py[cod]
+*.pyo
+
+# 操作系统 / 编辑器
+.DS_Store
+Thumbs.db
+*.swp
+*~
+
+# 本地虚拟环境 / 依赖
+.venv/
+venv/
+node_modules/
